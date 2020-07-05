@@ -1,0 +1,23 @@
+.image-service {
+    img {
+        border: 6px solid white;
+        border-radius: 20px;
+        -ms-transition: transform .2s ease-out;
+        -webkit-transition: transform .2s ease-out;
+        transition: transform .2s ease-out;
+        &:hover {
+            transform: scale(1.2) rotate(10deg);
+            -ms-transform: scale(1.2) rotate(10deg);
+            -webkit-transform: scale(1.2) rotate(10deg);
+        }
+    }
+    .service-info {
+        background-color: white;
+        margin-top: -5rem;
+        .btn-primary {
+            border: none;
+            border-radius: 0;
+            background-color: $pink;
+        }
+    }
+}

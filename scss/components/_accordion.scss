@@ -1,0 +1,27 @@
+#accordion {
+    .card-header {
+        background-color: $pink;
+        .btn-link {
+            color: white;
+            font-size: 1.5rem;
+            font-family: $lato;
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+.sidebar-services {
+    color: white;
+    font-family: $lato;
+    .cupon {
+        border: 3px dashed white;
+        p {
+            font-size: 1.2rem;
+            span {
+                font-size: 2.0rem;
+            }
+        }
+    }
+}

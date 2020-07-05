@@ -1,0 +1,26 @@
+.navigation {
+    background-color: $blue;
+    .nav-container {
+        background-image: url("../../img/border_horizontal.png"), url("../../img/border_horizontal.png");
+        background-repeat: repeat-x;
+        background-position: 0px top, 0px bottom;
+    }
+    /* Boostrap classes */
+    .navbar-light {
+        .navbar-toggler {
+            background-color: white; /* fondo del botton hamburguesa */
+            border-color: white;
+        }
+        .navbar-nav {
+            .nav-link {
+                color: white; /* Cambiar color de letra del nav */
+                font-size: 1.4rem;
+                transition: all 0.5s ease-in-out;
+                font-family: $raleway;
+                &:hover {
+                    background-color: $pink;
+                }
+            }
+        }
+    }
+}

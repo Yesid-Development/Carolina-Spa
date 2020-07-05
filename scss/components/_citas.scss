@@ -1,0 +1,25 @@
+.citas {
+    background-image: url("../../img/bg_citas.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    color: white;
+    @media (min-width: 992px) {
+        background-size: cover;
+    }
+    h3 {
+        font-size: 3.4rem;
+        font-family: $lato;
+    }
+    p {
+        font-size: 1.15rem;
+        font-family: $lato;
+        line-height: 2.4rem;
+    }
+    .btn-primary {
+        background-color: $blue;
+        border-radius: 0px;
+        padding: 1rem 5rem;
+        font-family: $lato;
+    }
+} 

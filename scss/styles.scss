@@ -1,0 +1,39 @@
+// Index
+@import "theme/_colors&fonts";
+@import "components/_socialnetworks";
+@import "components/_navigation";
+@import "components/_slider";
+@import "components/_titles";
+@import "components/_images";
+@import "components/_horario";
+@import "components/_products";
+@import "components/_citas";
+
+// Contactos
+@import "components/_principalcontent";
+
+// Servicios
+@import "components/_accordion";
+
+body {
+    background-color: #f8f8f8;
+    aside {
+        background-color: $blue;
+    }
+    .form-contacto {
+        border: 2px solid $gray;
+        background-color: white;
+        .btn-primary {
+            background-color: $blue;
+            border-radius: 0px;
+            padding: 1rem 5rem;
+            font-family: $lato;
+        }
+    }
+    footer {
+        .copyright {
+            color: $gray;
+            font-size: 0.9rem;
+        }
+    }
+}
